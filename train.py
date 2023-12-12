@@ -5,7 +5,7 @@ from tqdm import tqdm
 import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
-import os  # Add this import for handling folders
+import os
 from model import UNET
 from utils import (
     load_checkpoint,

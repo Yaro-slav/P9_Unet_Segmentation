@@ -29,7 +29,7 @@ model.eval()
 # Specify input and output directories
 input_dir = 'data/test_images'
 output_dir = 'data/output_images'
-overlay_output_dir = 'data/overlay_images'  # Add a new directory for overlaid images
+overlay_output_dir = 'data/overlay_images'
 
 # Create the output directories if they don't exist
 os.makedirs(output_dir, exist_ok=True)
